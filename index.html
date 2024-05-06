@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<style type="text/css">\
+    @font-face {font-family: 'Pretendard-Black';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;}
+	@font-face {font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;}
+	@font-face {font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;}
+	@font-face {font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;}
+    @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+	.jomhuria-regular {font-family: "Jomhuria", serif; font-weight: 400;font-style: normal;}
+
+
+		html{font-family: 'Pretendard-Regular'; line-height: 1.5}
+		.wrap{width: 1200px; margin: auto;}
+		.wrap2{width: 800px; margin: auto; position: relative; overflow: hidden; padding-top: 60px;}
+		.wrap3{width: 900px; margin: auto; position: relative; overflow: hidden; padding-top: 60px;}
+		.wrap4{width: 1500px; margin: auto;}
+		body, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h10, h11, h12, ul, p{margin: 0}
+		h2{font-family: 'Pretendard-ExtraBold'; font-weight: 800; font-size: 4.5rem; padding-top: 60px; line-height: 1.3; color: black; padding-bottom: 20px;}
+		h3{font-family: 'Pretendard-Bold'; font-weight: 800; font-size: 3rem; padding-top: 60px; line-height: 1.3; color: white; padding-bottom: 20px; margin: 0;}
+		h4{font-family: 'Pretendard-Regular'; font-weight: 300; font-size: 1.5rem; padding-top: 20px; line-height: 1.8; color: white; padding-bottom: 20px; margin: 0;}
+		h5{font-family: 'Pretendard-Bold'; font-weight: 800; font-size: 2.4rem; padding-top: 70px; line-height: 1.7; color: white;  margin: 0;}
+		h6{font-family: 'Pretendard-Bold'; font-weight: 800; font-size: 4.5rem; line-height: 1.3; color: black; padding-bottom: 40px; margin: 0; padding-top: 150px;}
+		h7{font-family: 'Pretendard-Bold'; font-weight: 800; font-size: 2.5rem; line-height: 1.3; color: #FF007F; padding-bottom: 20px; padding-top: 20px;}
+		h8{font-family: 'Pretendard-Regular'; font-size: 1.6rem; padding-top: 30px; padding-bottom: 60px; line-height: 1.7; color: black;}
+		h9{font-family: 'Pretendard-Regular'; font-size: 1.6rem; padding-top: 30px; padding-left: 70px; padding-right: 20px; padding-bottom:60%; line-height: 1.7; color: white;}
+		h10{font-family: 'Pretendard-Regular'; font-size: 1.6rem; padding-top: 30px; padding-bottom: 30px; line-height: 1.7; color: black;}
+		h11{font-family: 'Pretendard-Bold'; font-size: 1.6rem; padding-top: 30px; padding-bottom: 30px; line-height: 1.7; color: black;}
+		h12{font-family: 'Pretendard-Regular'; font-size: 1.2rem; padding-top: 30px;  padding-bottom: 30px; line-height: 1.7; color: black;}
+		h13{font-family: 'Pretendard-Regular'; font-weight: 300; font-size: 1rem; padding-top: 10px; line-height: 1.8; color: black; padding-bottom: 20px; margin: 0;}
+		h14{font-family: 'Pretendard-Bold'; font-size: 1.6rem; padding-top: 70px; padding-bottom: 60px; line-height: 1.7; color: black; margin: auto; text-align:center; }
+		h15{font-family: 'Pretendard-Bold'; font-weight: 800; font-size: 1.8rem; line-height: 1.3; color: white; padding-bottom: 40px; margin: 0; padding-top: 30px; position: absolute;} 
+		h16{font-family: 'Pretendard-Regular'; font-weight: 800; font-size: 1.2rem; line-height: 1.3; color: white; padding-bottom: 40px; margin: 0; padding-top: 80px; position: absolute; line-height: 1.7;}
+		p{font-family: 'Pretendard-Regular'; font-size: 1.6rem; padding-top: 30px; padding-bottom: 60px; line-height: 1.7; color: black;}
+		div{word-break: keep-all;}
+		body{background: white;}
+		img{width: 100%; display: block;}
+		.img2{width: 60%;}
+		.white{background: white;}
+		.black{background: black}
+		.black2 p{font-size: 1.1rem; padding-right: 20px; padding-left: 20px;}
+		.left-spacing{padding-left: 150px;}
+		.right-spacing{padding-right: 150px;}
+		.center-spacing{padding-left: 100px; padding-right: 100px; text-align: center; margin: auto;}
+		.center-spacing2{padding-left: 60px; padding-right: 0px; text-align: center;}
+		.center-spacing3{padding-left: 75px; padding-right: 0px; text-align: center;}
+		.magenta{background: #FF007F;}
+		.thin{font-family: 'Pretendard-Thin'}
+		.img1{position: absolute;  top: 300px; left: 30%; z-index: 999;transform: translate(-50%, -50%);}
+		.moving-text-container {overflow: hidden; font-size: 50px; font-family: 'Pretendard-Bold'; color: white; font-weight: 900px; position: relative; background: #FF007F; padding-top: 10px; padding-bottom: 10px; height: 75px;}
+		.moving-text {animation: moveRight 20s linear infinite;}
+		@keyframes moveRight {from {transform: translateX(-100%);}
+   	 	to {transform: translateX(100%);}}
+		.item{width: 100%; background: black; margin: 5px;}
+		.item2{width: 80%; background: black; margin: 20px;}
+		.item3{width: 80%; background: black; margin: 20px; border-radius: 15px; padding-bottom: 50px; text-align: left; }		
+		.flex3{display: flex; margin: auto; font-family: 'Pretendard-Regular'; font-weight: 400; line-height: 1.1;}
+		.flex4{display: flex; margin: auto; font-family: 'Pretendard-Regular'; font-weight: 400; line-height: 1.1; }
+		.flex2{display: flex; gap: 2% 10px; flex-wrap: wrap; margin: auto;}
+			.thumb1, .thumb2, .thumb3, .thumb4{height: 400px; background: blue;}
+		.flex5{display: flex; margin: auto; font-family: 'Pretendard-Regular'; font-weight: 400; line-height: 1.1; height: 610px; padding-bottom: 120px; }
+			.thumb1{background: url(step1.png); background-size: cover;}
+			.thumb2{background: url(step2.png); background-size: cover;}
+			.thumb3{background: url(step3.png); background-size: cover;}
+			.thumb4{background: url(step4.png); background-size: cover;}
+			.thumb5, .thumb6, .thumb7{height: 300px; background: blue; border-top-right-radius: 13px; border-top-left-radius: 13px;}
+			.thumb5{background: url(re11.jpg); background-size: cover;}
+			.thumb6{background: url(re22.jpg); background-size: cover;}
+			.thumb7{background: url(re33.jpg); background-size: cover;}
+		.image-container {position: relative; width: 100%;}
+		.text-overlay {position: absolute; top: 48%;
+    left: 50%; /* 이미지 좌측에서 50% 위치로 이동 */
+    transform: translate(-50%, -50%); /* 텍스트를 가운데 정렬 */
+    padding: 20px; /* 텍스트 주변 여백 설정 */
+    border-radius: 5px; /* 텍스트 박스 모서리를 둥글게 설정 */
+    color: black; /* 텍스트 색상 설정 */
+    font-family: 'Pretendard-Bold'; font-size: 2rem; }
+    	.white2{color: white; text-align: right;}
+    	.white3{text-align: right;}
+    	.text-overlay2 {position: absolute; top: 20%;left: 40%;
+    transform: translate(-40%, -40%);padding: 0px;
+    border-radius: 5px; color: #FF007F; font-family: 'Pretendard-Bold'; font-size: 4.6rem; margin: auto; text-align: center;}
+        .text-overlay3 {position: absolute; top: 62%;left: 40%;
+    transform: translate(-40%, -40%);padding: 0px;
+    border-radius: 5px; color: #FF5DAD; font-family: 'Pretendard-Bold'; font-size: 4.6rem;}
+        .text-overlay4 {position: absolute; top: 73%;left: 40%;
+    transform: translate(-40%, -40%);padding: 0px;
+    border-radius: 5px; color: #FFB0D7; font-family: 'Pretendard-Bold'; font-size: 4.6rem; opacity: 70%}
+        .text-overlay5 {position: absolute; top: 92%;left: 40%;
+    transform: translate(-40%, -40%);padding: 0px;
+    border-radius: 5px; color: #FFB0D7; font-family: 'Pretendard-Bold'; font-size: 4.6rem; opacity: 70%}
+    	.text-overlay6 {position: absolute; top: 45%;left: 45%;
+    transform: translate(-40%, -40%);padding: 0px;
+    border-radius: 5px; color: white; font-family: 'Pretendard-Bold'; font-size: 4rem; opacity: 100%}
+    	.text-overlay7 {position: absolute; top: 28%;left: 51%;
+    transform: translate(-50%, -50%);padding: 0px;
+    border-radius: 5px; color: white; font-family: 'Pretendard-Medium'; font-size: 2rem; opacity: 100%}
+   		.text-overlay8 {position: absolute; top: 50%;left: 50%;transform: translate(-50%, -50%); padding: 20px; text-align: center; font-family: 'Pretendard-ExtraBold'; font-size: 53px;}
+   		
+    .stiker{position: absolute; top:300px; left: 30% z-index:999; transform: translate(-50%,-50%);}
+    video{width: 100%; height: 110%; margin: 0; padding-top: 150px;padding-bottom: 0px;}
+    .right{align: right;}
+    .stop{background: url(example.png); background-size: cover; padding: 250px;background-attachment: fixed;}
+    .column-layout{display: flex; flex-wrap: wrap;}
+    .left-column{flex: 1; break-inside: avoid;}
+    .right-column{width: 500px; break-inside: avoid;}
+    .hand{background: url(hand.jpg); background-size: 80%; padding: 50px;}
+    .black2{background: black;}
+    .photo{background: url(lens.jpg);}
+	.moving-text-container {overflow: hidden; font-size: 50px; font-family: 'Pretendard-Bold'; color: white; font-weight: 900px; position: relative; background: #FF007F; padding-top: 10px; padding-bottom: 10px; height: 75px;}
+	.moving-text {white-space: nowrap; animation: ticker 15s linear infinite;}
+	@keyframes moveRight {from {transform: translateX(-100%);}
+   	 	to {transform: translateX(100%);}}
+	.ticker-container {width: 100%; overflow: hidden; padding: 0px;}
+	.ticker {white-space: nowrap; animation: ticker 10s linear infinite;}
+	.text {font-size: 80px; font-family: 'Pretendard-Bold'; color: white; font-weight: 900px; position: relative; background: #FF007F; height: 75px;}
+	@keyframes ticker {100% {transform: translateX(100%);}100% {transform: translateX(-100%); }}
+	.button{font-size: 18px; font-weight: medium; color: black; text-decoration: none;}
+	#buybutton{background-color: #FF007F; color: white; border: none; padding: 20px 60px; cursor: pointer; position: absolute; bottom: 100px; left: 50%; transform: translateX(-50%); font-size: 30px; font-size: bold; font-family:'Pretendard-Bold'; border-radius: 10px;}
+	#butbutton: hover{background-color: #FF007F;}
+	footer {display: flex; justify-content: space-between; background-color: white; padding-top: 40px; padding-bottom: 100px;}
+	.left-section {padding-left: 200px;}
+	.right-section {padding-left: 100px;}
+	.section2 {padding-left: 400px; width: 900px;}
+nav{position: fixed; top: 0; left: 0; right:0; background: black; z-index: 1000; margin: auto;}
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+.jomhuria-regular {font-family: "Jomhuria", serif; font-weight: 400;font-style: normal;}
+.logo {display: block; font-family: 'Pretendard-Bold', serif; font-weight: 400; font-style: normal; color: #00FFF6; font-size: 2rem; padding-left: 155px; padding-top: 8px; padding-bottom: 8px;}
+.navbar {font-family: 'Pretendard-Bold'; background-color: black; position: fixed; width: 100%; top: 0; left: 0;}
+.navbar ul {list-style-type: none; margin: 0; padding-left: 200px; overflow: hidden; padding-right: 155px;}
+.navbar li {float: right;  padding-left: 30px;}
+.navbar li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+.navbar li a:hover{color: #00FFF6; transition: 0.3s;}
+.flex4{display: flex; justify-content: space-between; padding: 5px 0px; gap: 0%; align-items: center; margin: auto;}
+.content {margin-top: 50px; padding: 20px;}
+
+
+
+    .review{font-family: 'Pretendard-Bold'; font-size: 2rem; padding-top: 200px; padding-bottom: 10px; line-height: 1.7; color: black;}
+    .black3 p{font-size: 1.1rem; padding-right: 20px; padding-left: 20px;}
+    @keyframes blur-in-out {
+    0% { color: transparent; text-shadow: 0 0 10px rgba(255,255,255,0.5); }
+    50% { color: rgba(0,0,0,0.5); text-shadow: none; }
+    100% { color: rgba(0,0,0,1); text-shadow: none; }}
+    .blurred-text-animation {animation: blur-in-out 1.8s infinite;}
+
+
+
+</style>
+</head>
+<body>
+<nav class="navbar flex4">
+    <div class="logo">BLURRY EYE</div>
+    <ul>
+        <li><a href="#ccc">Review</a></li>
+        <li><a href="#bbb">Effect</a></li>
+        <li><a href="#aaa">About</a></li>
+    </ul>
+</nav>
+
+</div>
+</nav>
+
+<section>
+	<img src="head.png">
+	<h2 class="center-spacing"  id="aaa">험악하고 끊이지 않는<br>사건에 피곤하지 않나요?
+	</h2>
+	<p class="center-spacing">
+	쏟아지는 강력범죄로 인한 감정 소모로 지쳐가는 현대 사회.<br>사건 사고, 범죄에 관한 기사, 사진 등을 잠시 흐린 눈으로 스쳐지나가 보세요.
+	</p>
+	<img src="2023-2024.png">
+</section>
+<section class="magenta">
+	<div class="wrap2">
+	<img src="angry.png">
+</div>
+</section>
+<section>
+	<div class="image-container">
+	<img src="newspaper.jpg">
+	<div class="wrap text-overlay2 ">
+	산뜻하게 하루를 시작하고 싶고<br>쉴 때는 아무생각 없이 즐겁기만<br> 하고 싶은데 머리 아파 죽겠다면
+	</div>
+	<div class="wrap text-overlay3 center-spacing">
+	산뜻하게 하루를 시작하고 싶고<br>쉴 때는 아무생각 없이 즐겁기만<br> 하고 싶은데 머리 아파 죽겠다면
+	</div>
+	<div class="wrap text-overlay4 center-spacing">
+	산뜻하게 하루를 시작하고 싶고<br>쉴 때는 아무생각 없이 즐겁기만<br> 하고 싶은데 머리 아파 죽겠다면
+	</div>
+	<div class="wrap text-overlay5 center-spacing">
+	산뜻하게 하루를 시작하고 싶고<br>
+	</div>
+</section>
+<section class="black">
+	<img src="next2.png">
+	<h3 class="center-spacing" id="bbb">
+		<span style="color:#00FFF6;">‘BLURRY EYE’</span>를 <br>사용해보세요.
+	</h3>
+	<section class="wrap3">
+			<img src="lens.png">
+	</section>
+<section>
+
+	<div class="wrap flex">
+	<div class="image-container ">
+	</div>
+	<h5 class="right-spacing">
+		<div style="text-align: right;">
+	특수 렌즈가 지닌 가능성
+		</div>
+	</h5>
+
+	<h4 class="right-spacing">
+		<div style="text-align: right;">
+	‘BLURRY EYE’는 사건사고와 관련된 각종 자료들을 보기<br> 싫을 때 흐리게 만들어주는 안경입니다. 일반적인 안경과<br> 유사한 외관이지만 특수한 렌즈로 이루어져 있어 눈에 띄지 <br>않고도 흐리게 보이는 효과를 누릴 수 있습니다.
+		</div>
+	</h4>
+</div>
+	<video src="sample2.mp4" autoplay muted loop>
+</video>
+</section>
+	<div class="image-container">
+    <img src="round3.png" alt="Image">
+	<div class="text-overlay8 center-spacing blurred-text-animation">이제 <span style="color:#00FFF6;">BLURRY EYE</span>가<br> 당신의 눈과 정신을 지켜줄게요</div>
+</section>
+<section>
+<div class="moving-text-container">
+    <div class="moving-text">ENJOY  BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶</div>
+</section>
+<section>
+	<div class="wrap">
+	<h6>
+	일반적인 안경처럼 <br> 간편하게 착
+	</h6>
+	<p>
+	일어나자마자 사용하면 하루를 산뜻하게 시작해 볼 수 있답니다. <br>장소, 공간의 제약없이 언제 어디서나 필요할 때 꺼내쓰는 간편함.
+	</p>
+	<img src="hand.jpg">
+</div>
+</section>
+<section>
+		<video src="sample5.mp4" autoplay muted loop>
+</video>
+</section>
+<section class="white">
+	<div class="image-container">
+    <img src="background.png">
+    <div class="text-overlay center-spacing">손으로 버튼을 톡톡 두드리면 바뀌는 4단계의 모자이크로 <br>원하는 강도에 맞게 설정하여 사용해보세요
+	<div class="wrap">
+		<div class="flex3">
+		<div class="item">
+		<div class="thumb1"></div>
+	<h7 class="center-spacing">1단계
+	</h7>
+</div>
+	<div class="item">
+		<div class="thumb2"></div>
+	<h7 class="center-spacing">2단계
+	</h7>
+	</div>
+	<div class="item">
+		<div class="thumb3"></div>
+		<h7 class="center-spacing">3단계
+	</h7>
+	</div>
+	<div class="item">
+		<div class="thumb4"></div>
+		<h7 class="center-spacing">4단계
+	</h7>
+</div>
+</section>
+<section class="black">
+	<div class="wrap">
+	<h6 class="white2">
+	놀라운 <span style="color:#00FFF6;">평온함</span>과 <br> 함께하는 엄청난 효과
+	</h6>
+	<div class="right">
+	<img src="face.png">
+	</div>
+	<h4>
+	피곤하고 불안하게 만드는 사건 사고,<br> 범죄에서 벗어나 아름답고 행복한 이야기로<br> 휴식을 가져보세요. 좋은 것만 보는 안경이<br> 여러분을 편안하게 해줄게요.
+	</h4>
+</section>
+<section>
+	<img src="arrow.png">
+</section>
+<section>
+	<section class="stop">
+</section>
+<section>
+		<img src="dot.png">
+</section>
+<section>
+	<div class="wrap">
+	<h6>
+	부담없는 단순한 외관으로 <br> 가볍게 다가가기
+	</h6>
+	<p>
+	안경에 있는 버튼을 누르면 단계를<br>조절 할 수 있답니다. 시력이 안 좋다면<br> 도수를 추가하여 사용해보세요.
+	</p>
+</section>
+<section>
+	<img src="glasses3.png">
+</section>
+<section>
+<div class="moving-text-container">
+    <div class="moving-text">ENJOY  BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶  ENJOY  BLURRY  EYE 🕶  ENJOY BLURRY  EYE 🕶</div>
+</section>
+<section>
+	<p class="review" align="center" id="ccc"> REVIEW
+	</p>
+</section>
+<section class="black3">
+		<div class="wrap">
+			<div class="flex5">
+				<div class="item3">
+					<div class="thumb5"></div>
+					<h15 class="center-spacing">★★★★★</h15>
+					<h16 class="center-spacing3">처음에는 조금 어지러웠는데<br> 적응하고 나니깐 편합니다 :)<br> we****</h16>
+				</div>
+				<div class="item3">
+					<div class="thumb6"></div>
+					<h15 class="center-spacing">★★★★★</h15>
+					<h16 class="center-spacing3">좋아하던 영화 볼 때마다 자꾸<br> 튀어나오던 범죄자 배우..<br>이제 안보여서 좋아요 😊 <br> hate****</h16>
+				</div>
+				<div class="item3">
+					<div class="thumb7"></div>
+					<h15 class="center-spacing">★★★★☆</h15>
+					<h16 class="center-spacing2">퇴근하고 쉴 때 이것저것 보다가<br>계속 범죄 사건에 대한 게 떠서<br>머리 아팠는데 이제는 선택적으로 <br>볼 수 있으니 만족!<br>crime****</h16>
+				</div>
+	</section>
+
+
+
+	</section>
+	<section>
+	<div class="image-container">
+    <img src="last glasses.png">
+    <div class="text-overlay7">흐린 눈 안경을 사용해보세요.</div>
+    <div class="text-overlay6 center-spacing">피곤함 zero, 행복이 가득한 세상을 만나볼 수 있습니다</div>
+    <button id="buybutton">구매하기</button>
+	</section>
+	<section>
+		<img src="dot2.png">
+	</section>
+	<footer class="wrap4">
+		<div class="left-section">
+        <h11>CONTECT</h11>
+        <h12><br>blurry_eye@gmail.com</h12>
+   		</div>
+    	<div class="right-section">
+        <h11>INDEX</h11>
+        <h12><br>About
+        <br>Effect
+        <br>Review
+        </h12>
+    	</div>
+    	<div class="section2">
+        <h13 class="right-spacing">
+    	ⓒ2024 ALL COPYRIGHTS RESERVED BY HYOJUN
+   		</h13>
+	</footer>
+</body>
+</html>
